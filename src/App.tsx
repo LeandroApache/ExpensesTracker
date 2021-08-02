@@ -31,8 +31,6 @@ export function App() {
     <div className={"App"}>
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses expenses={expenses}/>
-      <Expenses expenses={expenses}/>
-      <Expenses expenses={expenses}/>
     </div>
   )
 }
